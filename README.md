@@ -11,11 +11,11 @@ In the runtrial.r, you need to give a setting as follows:
 5. file path, for example, path = file.path('D:/Rcode/Eff-Tox_BAR')
  
 After running the function EffTox in runtrial.r, the results will be displayed in a result.txt file. The results contain the following:
-Scenario: the scenario name and number;
-Time Spend: the amount of time spent for each treatment group;
-#of pts: the number of patients who are assigned to the ith arm and classified as bad and good prognostic group after follow-up, i=  1,2,3;
-#of TOX: the number of pts who experience drug toxicity
-#of EFF: the number of pts who experience drug efficacy  
-selection prob: the selection probability of each arm
-selection prob(0.025): Lower 95% creditable set (CI) of the selection probability
-selection prob(0.975): Upper 95% creditable set (CI) of the selection probability
+1. Scenario: the scenario name and number;
+2. Time Spend: the amount of time spent for each treatment group;
+3. #of pts: the number of patients who are assigned to the ith arm and classified as bad and good prognostic group after follow-up, i=  1,2,3;
+4. #of TOX: the number of pts who experience drug toxicity
+5. #of EFF: the number of pts who experience drug efficacy  
+6. selection prob: the selection probability of each arm
+7. selection prob(0.025): Lower 95% creditable set (CI) of the selection probability
+8. selection prob(0.975): Upper 95% creditable set (CI) of the selection probability
