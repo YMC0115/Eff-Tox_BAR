@@ -6,7 +6,7 @@ In the runtrial.r, you need to give a setting as follows:
 2. run=2500;burnin=500;     #number iterations and burnin in the MCMC procedure   
 3. fn="bivariate";          #bivariate (parameters in the model of Efficacy and Toxicity),sensitivity1-2,vague,informative
 4. scenario=1;              #bivariate:1-6,sensitivity1:1-4, sensitivity2:1-4,vague:1-4,informative:1-4 
-5. file path, for example, path = file.path('D:/Rcode/BAR_EffTox')
+5. file path, for example, path = file.path('D:/Rcode/Eff-Tox_BAR')
  
 After running the function EffTox in runtrial.r, the results will given in a result.txt file. The results contain
 Scenario: the scenario name and number;
