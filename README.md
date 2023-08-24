@@ -2,7 +2,7 @@
 This document serves as a brief guide for the use of the R analysis program included in the study "Bayesian phase II adaptive randomization by jointly modeling efficacy and toxicity as time-to-event outcomes".
 
 # The grief guide to use the R code
-The document folder Eff-Tox_BAR contains 5 R functions "runtrial.r, modelsparameter.r, function.r, trial.r, cat.r" and a result document.
+The document folder Eff-Tox_BAR.zip contains 5 R functions "runtrial.r, modelsparameter.r, function.r, trial.r, cat.r" and a result document.
 In the runtrial.r, you need to give a setting as follows:
 1. w=1000;                  #number of simulation(1000)
 2. run=2500;burnin=500;     #number iterations and burnin in the MCMC procedure   
